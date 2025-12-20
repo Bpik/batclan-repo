@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+.5.2" provider-name="Ben">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Unified Kodi interface for Jellyfin + IPTV</summary>
+        <description>
+Addon providing Movies, TV, Kids Movies, Kids TV, Continue Watching,
+Next Up, and IPTV integration.
+        </description>
+        <news>
+Version 0.5.1
+  - Viewer-scoped local resume (separate resume state per Kodi profile)
+  - Reliable resume seek for static Jellyfin streams
+  - Finish Up split into Adult / Kids, filtered correctly
+  - Next Up split into Adult / Kids using Jellyfin profiles
+  - Widgets stable (no media errors, no early seek failures)
+  - No guard/service add-ons; plugin-only implementation
+        </news>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
