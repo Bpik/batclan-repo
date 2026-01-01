@@ -4,7 +4,7 @@
 
 <extension point="xbmc.addon.repository">
   <dir>
-    <info compressed="false">https://bpik.github.io/batclan-repo/addons.xml</info>
+    <info>https://bpik.github.io/batclan-repo/addons.xml</info>
     <checksum>https://bpik.github.io/batclan-repo/addons.xml.md5</checksum>
     <datadir>https://bpik.github.io/batclan-repo/</datadir>
     <minversion>21.0.0</minversion>
@@ -12,7 +12,7 @@
 </extension>
 
 </addon>
-<addon id="plugin.video.batclan" name="Batclan Media" version="0.4.31" provider-name="Ben">
+<addon id="plugin.video.batclan" name="Batclan Media" version="0.4.32" provider-name="Ben">
 
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
